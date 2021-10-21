@@ -16,10 +16,10 @@
           <p class="place-time">IN LONDON, UK</p>
         </div>
 
-        <div class="btn-box">
+        <button class="more-btn">
           <p class="btn-text">MORE</p>
-          <button class="more-btn"></button>
-        </div>
+          <span class="btn-span"></span>
+        </button>
       </article>
     </div>
   </div>
@@ -117,12 +117,13 @@ export default {
   text-transform: uppercase;
 }
 
-.btn-box{
+.more-btn{
   display: flex;
   align-items: center;
   padding: 15px 0;
   background: #FFFFFF;
   border-radius: 28px;
+  cursor: pointer;
 }
 
 .btn-text{
@@ -137,7 +138,7 @@ export default {
   color: #000000;
 }
 
-.more-btn{
+.btn-span{
   width: 40px;
   height: 40px;
   margin-right: 8px;
